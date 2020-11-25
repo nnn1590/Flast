@@ -43,7 +43,19 @@ build({
                 name: 'Document',
                 description: `${app_name}${channel}`,
                 role: 'Viewer',
-                ext: ['html', 'htm', 'php']
+                ext: 'html'
+            },
+            {
+                name: 'Document',
+                description: `${app_name}${channel}`,
+                role: 'Viewer',
+                ext: 'htm'
+            },
+            {
+                name: 'Document',
+                description: `${app_name}${channel}`,
+                role: 'Viewer',
+                ext: 'php'
             }
         ],
         nsis: {
